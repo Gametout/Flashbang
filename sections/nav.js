@@ -4,7 +4,7 @@ window.FB_SECTIONS["nav"] = `<!-- ===================== NAV ====================
   <div class="container nav__inner">
     <a class="brand" href="#top" aria-label="FLASHBANG MEDIA home">
       <img src="assets/img/logo.png" alt="" class="brand__mark" width="30" height="30" />
-      <span class="brand__name">FLASHBANG<span class="brand__dot">.</span></span>
+      <span class="brand__name">FLASHBANG<span class="brand__dot">.IN</span></span>
     </a>
     <nav class="nav__links" aria-label="Primary">
       <a href="#about">About</a>
