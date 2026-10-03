@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FLASHBANG MEDIA — A Gaming Media Company</title>
+  <meta name="description" content="FLASHBANG MEDIA is a gaming media company connecting audiences, creators and developers through GameTout on YouTube and TheGameVoice online." />
+  <meta name="theme-color" content="#0b0b0f" />
+  <link rel="icon" type="image/png" href="assets/img/logo.png" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="FLASHBANG MEDIA" />
+  <meta property="og:title" content="FLASHBANG MEDIA — A Gaming Media Company" />
+  <meta property="og:description" content="Gaming media through GameTout on YouTube and TheGameVoice online." />
+  <meta property="og:image" content="assets/img/hero.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/style.css?v=13" />
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("fb-theme") || "dark";
+        document.documentElement.setAttribute("data-theme", t);
+      } catch (e) { document.documentElement.setAttribute("data-theme", "dark"); }
+    })();
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "FLASHBANG MEDIA PRIVATE LIMITED",
+    "alternateName": "FLASHBANG MEDIA",
+    "url": "https://flashbangmedia.com",
+    "email": "contact@flashbangmedia.com",
+    "logo": "assets/img/logo.png",
+    "description": "FLASHBANG MEDIA is a gaming media company operating GameTout on YouTube and TheGameVoice online.",
+    "sameAs": ["https://www.youtube.com/@GameTout", "https://thegamevoice.com"],
+    "address": { "@type": "PostalAddress", "addressRegion": "West Bengal", "addressCountry": "IN" }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Scroll progress indicator -->
+  <div class="scroll-prog" id="scrollProg" aria-hidden="true"></div>
+
+  <!-- Animated aurora background (pure CSS, behind all content) -->
+  <div class="bg-fx" aria-hidden="true">
+    <span class="bg-fx__blob b1"></span>
+    <span class="bg-fx__blob b2"></span>
+    <span class="bg-fx__blob b3"></span>
+    <span class="bg-fx__grid"></span>
+  </div>
+
+  <!-- ====== Section partials are injected here by assets/js/include.js ====== -->
+  <!-- Each section lives in its own file under /sections for easy maintenance. -->
+
+  <div data-include="nav"></div>
+
+  <span id="top"></span>
+  <main id="main">
+    <div data-include="hero"></div>
+    <div data-include="about"></div>
+    <div data-include="products"></div>
+    <div data-include="work-videos"></div>
+    <div data-include="work-articles"></div>
+    <div data-include="events"></div>
+    <div data-include="stats"></div>
+    <div data-include="mission-vision"></div>
+    <div data-include="contact"></div>
+  </main>
+
+  <div data-include="footer"></div>
+  <div data-include="fab"></div>
+
+  <!-- 1) content data -->
+  <script src="data/content.js?v=13"></script>
+  <!-- 2) section markup (each file registers into window.FB_SECTIONS) -->
+  <script src="sections/nav.js?v=13"></script>
+  <script src="sections/hero.js?v=13"></script>
+  <script src="sections/about.js?v=13"></script>
+  <script src="sections/products.js?v=13"></script>
+  <script src="sections/work-videos.js?v=13"></script>
+  <script src="sections/work-articles.js?v=13"></script>
+  <script src="sections/events.js?v=13"></script>
+  <script src="sections/stats.js?v=13"></script>
+  <script src="sections/mission-vision.js?v=13"></script>
+  <script src="sections/contact.js?v=13"></script>
+  <script src="sections/footer.js?v=13"></script>
+  <script src="sections/fab.js?v=13"></script>
+  <!-- 3) inject sections into their placeholders -->
+  <script src="assets/js/include.js?v=13"></script>
+  <!-- 4) render + animate, then pull live feeds -->
+  <script src="assets/js/main.js?v=13"></script>
+  <script src="assets/js/feeds.js?v=13"></script>
+</body>
+</html>

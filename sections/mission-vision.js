@@ -1,0 +1,15 @@
+window.FB_SECTIONS = window.FB_SECTIONS || {};
+window.FB_SECTIONS["mission-vision"] = `<!-- ===================== MISSION / VISION ===================== -->
+<section class="section mv-sec">
+  <div class="container mv">
+    <div class="mv__card reveal">
+      <span class="eyebrow">Mission</span>
+      <p id="mission"></p>
+    </div>
+    <div class="mv__card reveal">
+      <span class="eyebrow">Vision</span>
+      <p id="vision"></p>
+    </div>
+  </div>
+</section>
+`;
